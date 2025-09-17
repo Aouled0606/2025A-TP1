@@ -13,15 +13,12 @@ Prompts (à utiliser quand vous implémenterez input) :
 """
 
 
-# TODO: Lire le nom complet (str) avec le prompt EXACT
-
-
-# TODO: Lire le nombre de déplacements par semaine (int) avec le prompt EXACT
-
-
-# TODO: Calcul des déplacements annuels
-
-
-# TODO: Affichage des deux lignes EXACTES
+x=input("Veuillez entrer votre nom complet:")
+x=str(x)
+print("Bonjour",x)
+y=input("Veuillez entrer le nombre de déplacements par semaine : ")
+y=int(y)
+deplacement= y * 52
+print("Vous effectuez environ",deplacement,"déplacements par an sur le réseau STM.") 
 
 

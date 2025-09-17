@@ -15,11 +15,24 @@ Prompts EXACTS à utiliser quand vous implémenterez input :
 """
 
 
-# TODO: Lire distance et attente via input (prompts EXACTS)
 
 
-# TODO: Calcul temps_marche et temps_bus (en minutes)
+x=input("Entrez la distance jusqu'à la destination (en kilomètres) : ")
+x=float(x)
+y=input("Entrez le temps d'attente avant le prochain bus (en minutes) :")
+y=int(y)
+bustime = y + x/20 * 60
+marchetime= x/5 * 60
+if bustime<marchetime:
+    print("Il est plus rapide de prendre le bus.")
+if bustime>marchetime:
+    print("Il est plus rapide de marcher.")
+if bustime==marchetime:
+    print("Les deux options prennent le même temps.")
 
 
-# TODO: Comparaison et affichage de la phrase EXACTE (une seule)
+
+
+
+    
 

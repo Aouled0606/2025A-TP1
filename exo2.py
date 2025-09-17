@@ -9,6 +9,23 @@ Objectif :
 Prompt EXACT à utiliser quand vous implémenterez input :
 "Entrez le taux d'occupation d'un bus (en %): "
 """
+x=input("Entrez le taux d'occupation d'un bus (en %):")
+x=int(x)
+
+if  (0<=x<=100):
+    blocs = (x+5) // 10   
+    barre = "❚" * blocs + " " * (10 - blocs)
+    print(f"[{barre}]")
+    print(f"{x}%")
+else:
+    print("Erreur :  Taux d'occupation invalide.")
+
+
+
+   
+
+
+
 
 # TODO: Lire le taux (int) via input avec le prompt EXACT
 
