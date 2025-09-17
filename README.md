@@ -84,7 +84,7 @@ Entrez le taux d'occupation d'un bus (en %): 304
 ```
 Sortie :
 ```python
-Erreur : taux d'occupation invalide.  
+Taux d'occupation invalide.  
 ```
 
 N.B. : Pour construire facilement la barre d’occupation, vous pouvez utiliser l’opérateur de multiplication sur les chaînes de caractères en Python. Par exemple, '❚' * 3 produit ❚❚❚.
@@ -212,9 +212,9 @@ Il existe une combinaison sur-couvrante moins chère : A, B, C : PPP.PP$ (surplu
 
 # Directives pour la remise
 
-Pour remettre votre travail, vous devez créer un fichier **zip** nommé : XXXXX_YYYYY-PR01.zip
+Pour remettre votre travail, vous devez créer un fichier **zip** nommé : LXX-XX_TP1.zip
 
-où **XXXXX** est votre nom de famille et **YYYYY** votre prénom.  
+où **XX-XX** est le numero de votre groupe.  
 
 Ce fichier zip devra contenir **tous les fichiers `.py` du TP** (`exo1.py` à `exo5.py`).  
 
@@ -238,7 +238,7 @@ Le barème de correction est le suivant :
 | 2.3 | Construction correcte de la barre avec ❚ et espaces | 1 |
 | 2.4 | Arrondi du nombre de blocs à la dizaine près | 0.5 |
 | 2.5 | Affichage de la barre + du pourcentage | 0.5 |
-| 2.6 | Gestion de l’erreur « Erreur : taux d'occupation invalide. » | 1 |
+| 2.6 | Gestion de l’erreur « Taux d'occupation invalide. » | 1 |
 | **Exercice 3 : Marcher ou attendre le bus ? 🚶‍♂️🚌** | | **/4** |
 | 3.1 | Lecture de la distance (float) et du temps d’attente (int) | 0.5 |
 | 3.2 | Calcul du temps de marche (vitesse 5 km/h) | 0.5 |
